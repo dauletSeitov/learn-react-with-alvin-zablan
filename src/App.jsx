@@ -1,4 +1,5 @@
 import MyComponents from "./MyComponent"
+import './index.css';
 
 const Title = () => {
   console.log("entered title")
@@ -90,6 +91,35 @@ const App = () => {
       height={40}
     >goodbye!</MyComponents>
     Click on the Vite and React logos to learn more
+
+    <br />
+
+
+
+    <div>place holder</div>
+    <div className="text-slate-400 border-4 border-black">two</div>
+    <div>place holder</div>
+    <div className="text-slate-400 border-x-4 border-black">two</div>
+    <div>place holder</div>
+    <div className="text-slate-400 border-y-4 border-black">two</div>
+    <div>place holder</div>
+    <div className="text-slate-400 border-t-4 border-black">border top</div>
+    <div>place holder</div>
+    <div className="text-slate-400 border-r-4 border-black">border right</div>
+    <div>place holder</div>
+    <div className="text-slate-400 border-b-4 border-black">border bottom</div>
+    <div>place holder</div>
+    <div className="text-slate-400 border-l-4 border-black">border left</div>
+    <div>place holder</div>
+
+    <div className="text-rose-300 bg-red-700">one</div>
+    <div className="text-slate-400 border-2 border-slate-600">two</div>
+    <div className="text-2xl bg-emerald-200 text-blue-600">three</div>
+    <div className="text-xl text-purple-500">
+      <div className="border-4 border-sky-500">four</div>
+      <div className="bg-violet-200 border-l-8 border-purple-800">five</div>
+      <div className="text-green-600">six</div>
+    </div>
   </div >
 
 
