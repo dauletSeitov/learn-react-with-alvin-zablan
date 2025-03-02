@@ -1,3 +1,4 @@
+import FancyButton from "./FancyButton";
 import MyComponents from "./MyComponent"
 import './index.css';
 
@@ -120,7 +121,35 @@ const App = () => {
       <div className="bg-violet-200 border-l-8 border-purple-800">five</div>
       <div className="text-green-600">six</div>
     </div>
+
+
+    <div className="border-2 border-red-500 p-4 m-4">
+      hrllo
+    </div>
+
+
+    <div className="border-2 border-blue-500 px-4 m-4">
+      bye
+    </div>
+    <button className="border-2 bordr-green-600 text-green-400 px-8 py-2 m-4 rounded-md">first</button>
+    <button className="rounded-lg bg-sky-400 text-white px-10 py-4 text-3xl m-4 hover:text-base">second</button>
+    <button className="bg-violet-100 text-violet-600 px-10 px-8 py-2 rounded-full">third</button>
+    <button className="m-4 bg-cyan-700 text-cyan-200 p-10 rounded-lg hover:bg-cyan-200 hover:text-cyan-700 ">forth</button>
+
+    <div className="bg-red-500">todo</div>
+
+
+
+
+
+
+
+
+    <FancyButton large={false}>click me </FancyButton>
+    <FancyButton large={true}>sumbit</FancyButton>
+
   </div >
+
 
 
 }
