@@ -1,3 +1,5 @@
+import MyComponents from "./MyComponent"
+
 const Title = () => {
   console.log("entered title")
   return <div>hello world!</div>
@@ -35,7 +37,6 @@ const Box = (props) => {
     fontSize: large ? '40px' : '12px'
   }}>{label}</div>
 }
-
 
 
 const App = () => {
@@ -80,6 +81,14 @@ const App = () => {
       bgColor="Green"
       textColor="White"
       large={false} />
+    <MyComponents
+      bgColor="Yellow"
+      height={90}
+    >hello!</MyComponents>
+    <MyComponents
+      bgColor="Lavender"
+      height={40}
+    >goodbye!</MyComponents>
     Click on the Vite and React logos to learn more
   </div >
 
