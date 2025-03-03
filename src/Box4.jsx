@@ -1,0 +1,11 @@
+import Dog from "./Dog"
+const Box4 = () => {
+  return (
+    <div className="flex flex-col items-end justify-around h-64 p-4 m-4 border-2 border-red-400">
+      <Dog />
+      <Dog />
+      <Dog />
+    </div>)
+}
+
+export default Box4
