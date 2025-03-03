@@ -9,6 +9,8 @@ import './index.css';
 import QuoteBox1 from "./QuoteBox1";
 import QuoteBox2 from "./QuoteBox2";
 import QuoteBox3 from "./QuoteBox3";
+import Header from "./search-page-design/Header";
+import Search from "./search-page-design/Search";
 
 const Title = () => {
   console.log("entered title")
@@ -218,6 +220,12 @@ const App = () => {
       <QuoteBox3 quote={quote3}/>
     </div>
 
+
+
+    <div className="h-screen flex flex-col border-2 border-blue-500">
+      <Header></Header>
+      <Search/>
+    </div>
   </div >
 
 
