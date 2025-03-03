@@ -6,6 +6,9 @@ import Box2 from "./Box2"
 import Box3 from "./Box3"
 import Box4 from "./Box4"
 import './index.css';
+import QuoteBox1 from "./QuoteBox1";
+import QuoteBox2 from "./QuoteBox2";
+import QuoteBox3 from "./QuoteBox3";
 
 const Title = () => {
   console.log("entered title")
@@ -45,6 +48,25 @@ const Box = (props) => {
   }}>{label}</div>
 }
 
+
+
+const quote1 = {
+  text: "The only way to do great work is to love what you do.",
+  author: "Steve Jobs",
+  bio: "Steve Jobs was an American business magnate"
+}
+
+const quote2 = {
+  text: "It always seems impossible until it's done.",
+  author: "Nelson Mandela",
+  bio: "Nelson Mandela was a South African anti-apartheid revolutionary."
+}
+
+const quote3 = {
+  text: "Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.",
+  author: "Albert Schweitzer",
+  bio: "Albert Schweitzer was an Alsatian polymath."
+}
 
 const App = () => {
 
@@ -189,6 +211,13 @@ const App = () => {
     <Box2 />
     <Box3 />
     <Box4 />
+
+    <div className="flex flex-col items-center">
+      <QuoteBox1 quote={quote1}/>
+      <QuoteBox2 quote={quote2}/>
+      <QuoteBox3 quote={quote3}/>
+    </div>
+
   </div >
 
 
