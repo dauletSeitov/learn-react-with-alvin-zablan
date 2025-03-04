@@ -12,6 +12,8 @@ import QuoteBox3 from "./QuoteBox3";
 import Header from "./search-page-design/Header";
 import Search from "./search-page-design/Search";
 import Footer from "./search-page-design/Footer";
+import ClickEvent from "./click-event-exercise/ClickEvent";
+import ConditionalRendering from "./conditional-rendering-exercise/ConditionalRendering";
 
 const Title = () => {
   console.log("entered title")
@@ -216,18 +218,21 @@ const App = () => {
     <Box4 />
 
     <div className="flex flex-col items-center">
-      <QuoteBox1 quote={quote1}/>
-      <QuoteBox2 quote={quote2}/>
-      <QuoteBox3 quote={quote3}/>
+      <QuoteBox1 quote={quote1} />
+      <QuoteBox2 quote={quote2} />
+      <QuoteBox3 quote={quote3} />
     </div>
 
 
 
     <div className="h-screen flex flex-col border-2 border-blue-500">
       <Header></Header>
-      <Search/>
-      <Footer/>
+      <Search />
+      <Footer />
     </div>
+
+    <ClickEvent />
+    <ConditionalRendering />
   </div >
 
 
