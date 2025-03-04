@@ -11,6 +11,7 @@ import QuoteBox2 from "./QuoteBox2";
 import QuoteBox3 from "./QuoteBox3";
 import Header from "./search-page-design/Header";
 import Search from "./search-page-design/Search";
+import Footer from "./search-page-design/Footer";
 
 const Title = () => {
   console.log("entered title")
@@ -225,6 +226,7 @@ const App = () => {
     <div className="h-screen flex flex-col border-2 border-blue-500">
       <Header></Header>
       <Search/>
+      <Footer/>
     </div>
   </div >
 
