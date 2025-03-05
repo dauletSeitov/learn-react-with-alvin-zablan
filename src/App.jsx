@@ -14,6 +14,10 @@ import Search from "./search-page-design/Search";
 import Footer from "./search-page-design/Footer";
 import ClickEvent from "./click-event-exercise/ClickEvent";
 import ConditionalRendering from "./conditional-rendering-exercise/ConditionalRendering";
+import LightSwitch from "./light-switch/LighSwitch";
+import ImageCarousel from "./image-carousel/ImageCarousel"
+import Counter from "./counter/Counter";
+import CatCarousel from "./cat-carousel/CatCarousel"
 
 const Title = () => {
   console.log("entered title")
@@ -233,6 +237,10 @@ const App = () => {
 
     <ClickEvent />
     <ConditionalRendering />
+    <Counter />
+    <LightSwitch/>
+    <ImageCarousel />
+    <CatCarousel />
   </div >
 
 
