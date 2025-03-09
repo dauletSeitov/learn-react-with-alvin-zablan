@@ -18,6 +18,9 @@ import LightSwitch from "./light-switch/LighSwitch";
 import ImageCarousel from "./image-carousel/ImageCarousel"
 import Counter from "./counter/Counter";
 import CatCarousel from "./cat-carousel/CatCarousel"
+import Stacker from "./stacker/Stacker";
+import CheckeredGrid from "./checkered-grid/CheckeredGrid";
+import SimpleDarkMode from "./simple-dark-mode/SimpleDarkMode";
 
 const Title = () => {
   console.log("entered title")
@@ -81,7 +84,7 @@ const App = () => {
 
 
   return <div>
-    <Title />
+    {/* <Title />
     <Title />
     <Title />
     <Description />
@@ -241,6 +244,9 @@ const App = () => {
     <LightSwitch/>
     <ImageCarousel />
     <CatCarousel />
+    <Stacker />
+    <CheckeredGrid /> */}
+    <SimpleDarkMode />
   </div >
 
 

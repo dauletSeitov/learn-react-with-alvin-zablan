@@ -12,7 +12,7 @@ const ImageCarousel = () => {
 
     return (
         <div >
-            <div className="flex flex-col text-center text-cyan-400 text-2xl">dog</div>
+            <div className="flex flex-col text-center text-cyan-400 text-2xl">dog {index + 1}</div>
             <div className="flex justify-center items-center">
                 <button className="bg-orange-400 rounded-full w-10 p-2 text-orange-100"
                     onClick={() => setindex((prev) => (prev + 1) % IMAGES.length)}>
