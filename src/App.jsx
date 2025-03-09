@@ -21,6 +21,8 @@ import CatCarousel from "./cat-carousel/CatCarousel"
 import Stacker from "./stacker/Stacker";
 import CheckeredGrid from "./checkered-grid/CheckeredGrid";
 import SimpleDarkMode from "./simple-dark-mode/SimpleDarkMode";
+import Modal from "./modal/Modal";
+import PlayingCardWrapper from "./PlayingCardWrapper"
 
 const Title = () => {
   console.log("entered title")
@@ -84,7 +86,7 @@ const App = () => {
 
 
   return <div>
-    {/* <Title />
+    <Title />
     <Title />
     <Title />
     <Description />
@@ -245,8 +247,10 @@ const App = () => {
     <ImageCarousel />
     <CatCarousel />
     <Stacker />
-    <CheckeredGrid /> */}
+    <CheckeredGrid />
     <SimpleDarkMode />
+    <Modal />
+    <PlayingCardWrapper />
   </div >
 
 
