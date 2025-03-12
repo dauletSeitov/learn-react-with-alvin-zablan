@@ -23,6 +23,10 @@ import CheckeredGrid from "./checkered-grid/CheckeredGrid";
 import SimpleDarkMode from "./simple-dark-mode/SimpleDarkMode";
 import Modal from "./modal/Modal";
 import PlayingCardWrapper from "./PlayingCardWrapper"
+import Map from "./map/Map"
+import SongList from "./song-list/SongList"
+import PropertyList from "./property-list/PropertyList"
+import TestimonialCarouselWrapper from "./testimonial-carousel/TestimonialCarouselWrapper"
 
 const Title = () => {
   console.log("entered title")
@@ -251,6 +255,10 @@ const App = () => {
     <SimpleDarkMode />
     <Modal />
     <PlayingCardWrapper />
+    <Map />
+    <SongList />
+    <PropertyList />
+    <TestimonialCarouselWrapper />
   </div >
 
 
