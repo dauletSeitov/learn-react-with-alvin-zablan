@@ -27,6 +27,9 @@ import Map from "./map/Map"
 import SongList from "./song-list/SongList"
 import PropertyList from "./property-list/PropertyList"
 import TestimonialCarouselWrapper from "./testimonial-carousel/TestimonialCarouselWrapper"
+import Pagination from "./pagination/Pagination"
+import MunchCentral from "./munch-central/MunchCentral"
+import FurniturePagination from "./furniture-pagination/FurniturePagination"
 
 const Title = () => {
   console.log("entered title")
@@ -259,6 +262,9 @@ const App = () => {
     <SongList />
     <PropertyList />
     <TestimonialCarouselWrapper />
+    <Pagination />
+    <MunchCentral />
+    <FurniturePagination />
   </div >
 
 
