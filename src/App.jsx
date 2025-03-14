@@ -30,6 +30,11 @@ import TestimonialCarouselWrapper from "./testimonial-carousel/TestimonialCarous
 import Pagination from "./pagination/Pagination"
 import MunchCentral from "./munch-central/MunchCentral"
 import FurniturePagination from "./furniture-pagination/FurniturePagination"
+import TextInput from "./text-input/TextInput"
+import SingInForm from "./sing-in-form/SingInForm"
+import WordFilter from "./word-filter/WordFilter"
+import MessageProject from "./message/MessageProject"
+
 
 const Title = () => {
   console.log("entered title")
@@ -265,6 +270,10 @@ const App = () => {
     <Pagination />
     <MunchCentral />
     <FurniturePagination />
+    <TextInput />
+    <SingInForm />
+    <WordFilter />
+    <MessageProject />
   </div >
 
 
