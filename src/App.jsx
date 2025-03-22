@@ -34,6 +34,20 @@ import TextInput from "./text-input/TextInput"
 import SingInForm from "./sing-in-form/SingInForm"
 import WordFilter from "./word-filter/WordFilter"
 import MessageProject from "./message/MessageProject"
+import CheckBox from "./check-box/CheckBox"
+import NumberInput from "./number-input/NumberInput"
+import Select from "./select/Select"
+import CatDirectory from "./cat-directory/CatDirectory"
+import UsingFetch from "./using-fetch/UsingFetch"
+import RandomJoke from "./random-joke/RandomJoke"
+import TeamMates from "./teammates/Teammates"
+import Stock from "./stock/Stock"
+import Weather from "./weather/Weather"
+import ErrorHandling from "./error-handling/ErrorHandling"
+import States from "./states/States"
+import MessageBox from "./message-box/MessageBox"
+import Furniture from "./furniture/Furniture"
+import {TodoList} from "./todo-list/TodoList"
 
 
 const Title = () => {
@@ -274,6 +288,20 @@ const App = () => {
     <SingInForm />
     <WordFilter />
     <MessageProject />
+    <CheckBox />
+    <NumberInput />
+    <Select />
+    <CatDirectory />
+    <UsingFetch />
+    <RandomJoke />
+    <TeamMates />
+    <Stock />
+    <Weather/>
+    <ErrorHandling/>
+    <States />
+    <MessageBox />
+    <Furniture />
+    <TodoList />
   </div >
 
 
