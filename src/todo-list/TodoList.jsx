@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { useEffect, useCallback } from "react"
 import { useState } from "react"
 import { createTodos, getAllTodos } from "./todoService"
 import { TodoItem } from "./TodoItem"
@@ -9,15 +9,15 @@ export const TodoList = () => {
     const [creating, setCreating] = useState(false)
     const [createText, setCreateText] = useState("")
 
-    const fetchTodos = async () => {
+    const fetchTodos = useCallback(async () => {
         const response = await getAllTodos()
         const data = await response.json()
         setTodos(data)
-    }
+    },[])
 
     useEffect(() => {
         fetchTodos()
-    }, [])
+    }, [fetchTodos])
 
 
     console.log("todos", todos)
