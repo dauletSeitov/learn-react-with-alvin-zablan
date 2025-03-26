@@ -10,14 +10,14 @@ const makeInitialItems = (number) => {
     return items
 }
 
-export default DeafaultLecture = () => {
-    const [items, setItems] = useState(makeInitialItems(20))
+export const DefaultLecture = () => {
+    const [items, setItems] = useState(()=>makeInitialItems(20))
     const [darkMode, setdarkMode] = useState(false)
 
 
     return (
         <div className={darkMode ? "text-white bg-black" : "text-black bg-white"}>
-            <button onClick={() => setdarkMode(prev => !prev)}></button>
+            <button onClick={() => setdarkMode(prev => !prev)}>dark mode</button>
             {items.map((item, index) => <div key={index} >{item}</div>)}
 
         </div>
